@@ -11,6 +11,7 @@ import { ProgressBarComponent } from '~core/components/progress-bar/progress-bar
 import { CookiePopupComponent } from '~core/components/cookie-popup/cookie-popup.component';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ToastStackComponent } from '~core/components/toast-stack/toast-stack.component';
+import { BannerModule } from '@example/components/banner/module';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +25,7 @@ import { ToastStackComponent } from '~core/components/toast-stack/toast-stack.co
     ProgressBarComponent,
     CookiePopupComponent,
     ToastStackComponent,
+    BannerModule,
   ],
 })
 export class AppComponent {
