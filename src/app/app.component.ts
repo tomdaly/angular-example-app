@@ -13,6 +13,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { ToastStackComponent } from '~core/components/toast-stack/toast-stack.component';
 import { BannerModule } from '@example/components/banner/module';
 import { LegacySectionModule } from './features/legacy-section/legacy-section.module';
+import { PageWithInnerModule } from './features/page-with-inner/page-with-inner.module';
 
 @Component({
   selector: 'app-root',
@@ -28,6 +29,7 @@ import { LegacySectionModule } from './features/legacy-section/legacy-section.mo
     ToastStackComponent,
     BannerModule,
     LegacySectionModule,
+    PageWithInnerModule,
   ],
 })
 export class AppComponent {

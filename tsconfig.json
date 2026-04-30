@@ -25,7 +25,8 @@
       "~environments/*": ["src/environments/*"],
       "~core/*": ["src/app/core/*"],
       "~features/*": ["src/app/features/*"],
-      "@example/components/*": ["packages/example-components/*"]
+      "@example/components/*": ["packages/example-components/*"],
+      "@inner/lib/*": ["packages/inner-lib/*"]
     }
   },
   "angularCompilerOptions": {
