@@ -12,6 +12,7 @@ import { CookiePopupComponent } from '~core/components/cookie-popup/cookie-popup
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ToastStackComponent } from '~core/components/toast-stack/toast-stack.component';
 import { BannerModule } from '@example/components/banner/module';
+import { LegacySectionModule } from './features/legacy-section/legacy-section.module';
 
 @Component({
   selector: 'app-root',
@@ -26,6 +27,7 @@ import { BannerModule } from '@example/components/banner/module';
     CookiePopupComponent,
     ToastStackComponent,
     BannerModule,
+    LegacySectionModule,
   ],
 })
 export class AppComponent {
